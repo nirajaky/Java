@@ -1,0 +1,14 @@
+
+public class Zmienne {
+
+	public static void main(String[] args) {
+		int myNumber = 99;
+		short myShort = 899;
+		long myLong = 111111;
+		
+		System.out.println(myNumber);
+		System.out.println(myShort);
+		System.out.println(myLong);
+	}
+
+}

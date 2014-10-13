@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;App.calculate(...)&apos; to &apos;silnia&apos;&#x0D;&#x0A;- Original project: &apos;44 - Rekurencja - Przydatna sztuczka w zanadrzu&apos;&#x0D;&#x0A;- Original element: &apos;App.calculate(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;App.silnia(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;calculate&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{App.java[App~calculate~I" name="silnia" references="true" stamp="1413121876735" version="1.0"/>
+</session>

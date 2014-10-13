@@ -1,0 +1,14 @@
+public class App {
+	public static void main(String[] args) {
+		try {
+			Thread.sleep(111);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		int value = 6;
+		value = value/0;
+		
+	}
+}

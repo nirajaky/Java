@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+		System.out.println("Enter a number: ");
+		
+		int value = new Scanner(System.in).nextInt();
+		while(value !=5){
+			System.out.println("Enter a number: ");
+			value = new Scanner(System.in).nextInt();
+		}
+		System.out.println("Got 5!");
+	}
+}

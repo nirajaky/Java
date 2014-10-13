@@ -1,0 +1,7 @@
+public class Oak extends Plant {
+	public Oak() {
+		//Plant.type jest niewidoczny, jest private 
+		//type = "Tree";
+		
+	}
+}

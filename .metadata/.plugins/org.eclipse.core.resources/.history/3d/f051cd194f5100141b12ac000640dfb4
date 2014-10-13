@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+
+
+public class App {
+	public static void main(String[] args) {
+		/////////Before Java 5/////////////
+		ArrayList list = new ArrayList();
+		
+		list.add("apple");
+		list.add("banana");
+		list.add("orange");
+		
+		String fruit = list.get(1);
+		
+	}
+}

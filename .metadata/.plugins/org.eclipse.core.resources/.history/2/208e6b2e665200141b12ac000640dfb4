@@ -1,0 +1,27 @@
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class App {
+	public static void main(String[] args) {
+		// (head)<-- ooooooooooooooooooooo<-- (tail) FIFO
+
+		Queue<Integer> q1 = new ArrayBlockingQueue<Integer>(3);
+		try {
+			q1.add(10);
+			q1.add(20);
+			q1.add(30);
+			q1.add(40);
+		} catch (IllegalStateException e) {
+			System.out.println("Próba dodania zbyt du¿ej iloœæ elementów");
+		}
+		for (Integer value : q1) {
+			System.out.println("Wartoœæ w kolejce: " + value);
+		}
+		Integer value;
+		value = q1.remove();
+		System.out.println("Removed from queue: " + value);
+		for (Integer value : q1) {
+			System.out.println("Wartoœæ w kolejce: " + value);
+		}
+	}
+}

@@ -1,0 +1,9 @@
+public class Oak extends Plant {
+	public Oak() {
+		// Plant.type jest niewidoczny, jest private
+		// type = "Tree";
+		// size jest protected wiêc dostêp jest w ca³ym pakiecie,
+		// w klasie macierzystej i pod klasach
+		this.size = "medium";
+	}
+}

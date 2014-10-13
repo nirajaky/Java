@@ -1,0 +1,8 @@
+public class App {
+
+	public static void main(String[] args) {
+		Machine mark1 = new Machine();
+		mark1.start();
+		mark1.stop();
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		//Dodawanie
+		numbers.add(10);
+		numbers.add(100);
+		numbers.add(140);
+		//pobieranie
+		System.out.println(numbers.get(0));
+		//Iteracja w pêtli for
+		for(int i=0;i<numbers.size(); i++){
+			System.out.println(numbers.get(i));
+			
+		}
+		
+	}
+}

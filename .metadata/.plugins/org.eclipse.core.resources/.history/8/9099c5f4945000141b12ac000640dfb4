@@ -1,0 +1,19 @@
+class Robot{
+	
+	public void speak(String text){
+		System.out.println(text);
+	}
+	public void jump(int wysokosc) {
+		System.out.println("Jumping: " + wysokosc);
+	}
+	
+}
+public class App {
+	public static void main(String[] args) {
+		Robot sam = new Robot();
+		
+		sam.speak("Hi I'm sam.");
+		sam.jump(7);
+	}
+	
+}

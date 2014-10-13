@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+class Machine {
+
+	@Override
+	public String toString() {
+		return "I'm a machine";
+	}
+
+}
+
+class Camera extends Machine {
+
+}
+
+public class App {
+
+	public static void main(String[] args) {
+
+		ArrayList<Machine> list1 = new ArrayList<String>();
+		
+		list1.add(new Machine());
+		list1.add(new Machine());
+		
+		showList(list1);
+	}
+	public static void showList(ArrayList<String> list1){
+		for(String value: list1){
+			System.out.println(value);
+		}
+	}
+}

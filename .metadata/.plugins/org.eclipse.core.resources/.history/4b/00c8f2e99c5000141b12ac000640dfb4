@@ -1,0 +1,30 @@
+class Frog{
+	String name;
+	int age;
+	
+	public void setName(String newName){
+		name=newName;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	public int getAge(){
+		return age;
+	}
+	
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		
+	Frog frog1 = new Frog();
+	frog1.name = "Bestia";
+	frog1.age = 15;
+	System.out.println(frog1.getName());
+	frog1.setName("Kamil");
+	System.out.println(frog1.getName());
+	}
+
+}

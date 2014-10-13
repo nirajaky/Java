@@ -1,0 +1,23 @@
+public class App {
+	public static void main(String[] args) {
+		
+		int[] values = {3, 4, 345};
+		System.out.println(values[2]);
+		
+		int[][] grid = {
+				{3, 5, 345},
+				{3, 4},
+				{3, 7, 6, 345}
+		};
+		
+		
+		System.out.println(grid[1][1]);
+		System.out.println(grid[0][2]);
+		
+		String[][] texts = new String[2][3];
+		texts[0][1] = "Hello there";
+		
+		System.out.println(texts[0][1]);
+		
+	}
+}

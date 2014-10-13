@@ -1,0 +1,16 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+class Temp {
+
+}
+
+public class App {
+	public static void main(String[] args) {
+
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+
+		System.out.println(new Temp());
+	}
+}

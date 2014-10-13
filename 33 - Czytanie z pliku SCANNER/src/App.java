@@ -1,0 +1,27 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) throws FileNotFoundException {
+
+		//String fileName = "C:/Users/maly/Desktop/plik1.txt";
+		String fileName = "plik1.txt";
+		File textFile = new File(fileName);
+
+		Scanner im = new Scanner(textFile);
+		int value = im.nextInt();
+		System.out.println("Read value: " + value);
+
+		im.nextLine();
+		
+		int count = 2;
+		while (im.hasNextLine()) {
+			String line = im.nextLine();
+			System.out.println(count + ": " + line);
+			count++;
+		}
+
+		im.close();
+	}
+}

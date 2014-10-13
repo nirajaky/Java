@@ -1,0 +1,10 @@
+public class Plant {
+	//bad practice
+	public String name;
+	
+	public final static int ID = 8;
+	
+	public Plant(){
+		this.name = "Freddy";
+	}
+}

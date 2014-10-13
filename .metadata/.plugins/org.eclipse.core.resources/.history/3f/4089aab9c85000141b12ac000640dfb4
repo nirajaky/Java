@@ -1,0 +1,23 @@
+class Machine {
+	private String name;
+
+	public Machine() {
+		System.out.println("Kontruktor dzia³a!");
+
+		name = "Arnie";
+	}
+
+	public Machine(String name) {
+		System.out.println("Drugi konstruktor dzia³a!");
+		this.name = name;
+	}
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+		Machine machine2 = new Machine("Kamil");
+	}
+
+}

@@ -1,0 +1,37 @@
+class Person {
+	String name;
+	int age;
+
+	void speak() {
+		System.out.println("My name is " + name);
+	}
+	int obliczLataDoEmerytury(){
+		int zostalo = 67 - age;
+		
+		return zostalo;
+	}
+	int getAge(){
+		return age;
+	}
+	String getName(){
+		return name;
+	}
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		Person person1 = new Person();
+		person1.name = "Kamil Karczewski";
+		person1.age = 23;
+		person1.speak();
+		
+		int years = person1.obliczLataDoEmerytury();
+		// System.out.println(person1.name);
+		System.out.println("Zosta³o do emerytury " + years);
+		
+		int age = person1.getAge();
+		String name = person1.getName();
+		System.out.println(age+" "+name);
+	}
+}

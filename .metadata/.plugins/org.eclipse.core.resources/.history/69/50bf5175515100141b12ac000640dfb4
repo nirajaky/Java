@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+class Machine {
+
+}
+
+class Camera extends Machine {
+
+}
+
+public class App {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> list1 = new ArrayList<String>();
+		
+		list1.add("one");
+		list1.add("two");
+		
+		showList(list1);
+	}
+	public static void showList(ArrayList<String> list1){
+		for(String value: list1){
+			System.out.println(value);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+public class Car extends Machine{
+	
+	
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		super.stop();
+	}
+	public void wipeWindShield(){
+		System.out.println("Wiping windshield");
+	}
+	public void start(){
+		System.out.println("Car Started");
+	}
+}

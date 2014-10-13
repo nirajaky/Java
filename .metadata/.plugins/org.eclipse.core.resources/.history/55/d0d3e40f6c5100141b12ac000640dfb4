@@ -1,0 +1,16 @@
+public abstract class Machine {
+	private int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	//deklaracja pustej metody jak w Interfejsach
+	//cia³o w podklasach
+	public abstract void start();
+	
+	
+}
