@@ -30,5 +30,7 @@ public class App {
 			//1 - pierwsza kolumna
 			//2 - druga kolumna
 		}
+		//Zakoñczenie po³¹czenia
+		con.close();
 	}
 }
